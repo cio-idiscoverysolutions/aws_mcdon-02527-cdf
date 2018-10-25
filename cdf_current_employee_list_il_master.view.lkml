@@ -234,4 +234,10 @@ view: cdf_current_employee_list_il_master {
     type: count
     drill_fields: [employee_name, ids_first_name, ids_last_name]
   }
+  measure: number_of_unique_employees {
+    type: count_distinct
+    sql: ${employee_num} ;;
+  }
+
+
 }
