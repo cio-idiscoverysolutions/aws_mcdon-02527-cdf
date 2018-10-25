@@ -10,7 +10,7 @@ datagroup: aws_mcdon_02527_cdf_default_datagroup {
 
 persist_with: aws_mcdon_02527_cdf_default_datagroup
 
-explore: cdf_current_employee_list_regions_master {}
+# - explore: cdf_current_employee_list_regions_master {}
 
 # - explore: cdf_catalog
 
@@ -18,7 +18,7 @@ explore: cdf_current_employee_list_regions_master {}
 
 # - explore: cdf_convert
 
-# - explore: cdf_current_employee_list_il_master
+explore: cdf_current_employee_list_il_master {}
 
 # - explore: cdf_electronic_consent_chart_master
 
