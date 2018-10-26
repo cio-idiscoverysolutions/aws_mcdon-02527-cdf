@@ -31,6 +31,11 @@ view: cdf_current_employee_list_il_master {
     sql: ${TABLE}."Employee Num" ;;
   }
 
+  dimension: num_occurrences {
+    type: number
+    sql: ${TABLE}."NumberOfOccurrences" ;;
+  }
+
   dimension_group: hire {
     type: time
     timeframes: [
