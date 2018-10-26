@@ -244,5 +244,8 @@ view: cdf_current_employee_list_il_master {
     sql: ${employee_num} ;;
   }
 
-
+  measure: sum_of_number_of_occurrences {
+    type: sum
+    sql: ${num_occurrences} ;;
+  }
 }
