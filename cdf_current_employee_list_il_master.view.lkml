@@ -27,7 +27,7 @@ view: cdf_current_employee_list_il_master {
   }
 
   dimension: employee_num {
-    type: number
+    type: string
     sql: ${TABLE}."Employee Num" ;;
   }
 
@@ -103,6 +103,11 @@ view: cdf_current_employee_list_il_master {
   dimension: ids_no_bio {
     type: string
     sql: ${TABLE}.IDS_NoBio ;;
+  }
+
+  dimension: ids_consentfinal {
+    type: string
+    sql: ${TABLE}.IDS_ConsentFinal ;;
   }
 
   dimension: ids_source_id {
@@ -181,7 +186,7 @@ view: cdf_current_employee_list_il_master {
   }
 
   dimension: national_store_nu {
-    type: number
+    type: string
     sql: ${TABLE}."National Store Nu" ;;
   }
 
