@@ -110,6 +110,11 @@ view: cdf_current_employee_list_il_master {
     sql: ${TABLE}.IDS_ConsentFinal ;;
   }
 
+  dimension: IDS_BucketFinal {
+    type: string
+    sql: ${TABLE}.IDS_BucketFinal ;;
+  }
+
   dimension: ids_source_id {
     type: number
     sql: ${TABLE}.IDS_SourceID ;;
