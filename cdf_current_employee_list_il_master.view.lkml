@@ -45,7 +45,7 @@ view: cdf_current_employee_list_il_master {
       week,
       month,
       quarter,
-      year
+      year,day_of_week
     ]
     sql: ${TABLE}."Hire Date" ;;
   }
